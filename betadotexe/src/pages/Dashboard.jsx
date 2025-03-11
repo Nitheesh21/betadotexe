@@ -9,9 +9,9 @@ const Dashboard = () => {
       <header>
         <h1>Hi Nitheesh!</h1>
         <div className="header-icons">
-          <button className="login-button">Login</button>
-          <span>🔍</span>
-          <span>🔔</span>
+          <NavLink to="/login">
+            <button className="login-button">Login</button>
+          </NavLink>
           <NavLink to="/profile">
             <div className="profile-pic"></div>
           </NavLink>

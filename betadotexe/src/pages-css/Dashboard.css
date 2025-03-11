@@ -4,7 +4,8 @@ body {
     flex-direction: column;
     justify-content: space-around;
     margin: 0;
-    background-color: black;
+    /* background-color: #09122C; */
+    background-color: #070F2B;
     color: white;
 }
 
