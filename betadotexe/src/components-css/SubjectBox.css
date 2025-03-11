@@ -1,0 +1,18 @@
+* {
+    font-family: 'Helvetica', sans-serif;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+  }

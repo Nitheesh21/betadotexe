@@ -1,0 +1,1 @@
+pull: git pull --tags --no-rebase origin main

@@ -1,16 +1,10 @@
-/* src/components/Tests.css */
+
 
 .tests-container {
     display: flex; /* Use flexbox for layout */
     height: 100vh; /* Make the container fill the viewport height */
   }
   
-  .sidebar {
-    background-color: #2E52A2; /* Dark blue background */
-    color: white;
-    width: 250px;
-    padding: 20px;
-  }
   
   .content-wrapper {
     flex-grow: 1; /* Allow content to take up remaining space */
@@ -43,6 +37,8 @@
     flex-grow: 1;
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    justify-content: center;
   }
   
   .search-bar {
@@ -59,13 +55,6 @@
   
   .boxes {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Create 3 equal-width columns */
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-  }
-  
-  .box {
-    background-color: #E8F0FE;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
   }

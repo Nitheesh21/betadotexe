@@ -1,31 +1,19 @@
 import React from "react";
-import Sidebar from "./Sidebar";
-import "./Tests.css";
-import "./Sidebar.css"; 
-
-function Box({ title }) {
-  return <div className="box">{title}</div>;
-}
+import "../pages-css/Tests.css";
+import SubjectBox from "../Components/SubjectBox";
 
 function Tests() {
   return (
     <div className="tests-container">
-      <Sidebar />
       <div className="content-wrapper">
-        <header className="header">
-          <button className="notification-button">&#x1F514;</button>
-          <div className="profile-picture"></div>
-        </header>
+        <header className="header"></header>
         <main className="main-content">
-          <div className="search-bar">
-            <button className="sign-in-button">+ Sign in with credentials</button>
-          </div>
           <div className="boxes">
-            <Box title="Data Structures and Algorithms" />
-            <Box title="Artificial Intelligence" />
-            <Box title="Probability" />
-            <Box title="Text" />
-            <Box title="Text" />
+            <SubjectBox title="Data Structures and Algorithms" />
+            <SubjectBox title="Artificial Intelligence" />
+            <SubjectBox title="Probability" />
+            <SubjectBox title="Text" />
+            <SubjectBox title="Text" />
           </div>
         </main>
       </div>
